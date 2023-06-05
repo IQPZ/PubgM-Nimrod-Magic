@@ -1,0 +1,58 @@
+﻿  Building 'KP' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  driver_entry.c
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(31,4): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(34,3): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(66,4): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(67,3): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(77,4): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(78,3): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(89,3): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(99,4): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(100,3): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(115,4): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(116,3): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(122,3): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(203,4): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(204,3): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(209,3): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(279,3): warning C4201: nonstandard extension used: nameless struct/union
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\definitions.h(356,10): warning C4273: 'ZwAllocateVirtualMemory': inconsistent dll linkage
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\ntifs.h(30254,1): message : see previous definition of 'ZwAllocateVirtualMemory'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(11,38): warning C4100: 'device': unreferenced formal parameter
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(17,37): warning C4100: 'device': unreferenced formal parameter
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(95,8): warning C4189: 'HandleTableOffset': local variable is initialized but not referenced
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(229,25): warning C4047: '=': 'ULONGLONG' differs in levels of indirection from 'PVOID'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(257,22): warning C4047: '!=': 'ULONGLONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(257,72): warning C4047: '!=': 'ULONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(258,49): warning C4022: 'ReadProcessMemory': pointer mismatch for actual parameter 2
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(274,21): warning C4047: '!=': 'ULONGLONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(274,70): warning C4047: '!=': 'ULONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(275,50): warning C4022: 'WriteProcessMemory': pointer mismatch for actual parameter 2
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(287,26): warning C4047: '!=': 'ULONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(300,26): warning C4047: '!=': 'ULONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(313,26): warning C4047: '!=': 'ULONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(314,59): warning C4047: 'function': 'ULONG' differs in levels of indirection from 'HANDLE'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(314,54): warning C4024: 'GetModuleHandle': different types for formal and actual parameter 1
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(326,26): warning C4047: '!=': 'ULONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(329,46): warning C4022: 'PsLookupProcessByProcessId': pointer mismatch for actual parameter 1
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(334,73): warning C4047: 'function': 'PVOID *' differs in levels of indirection from 'ULONGLONG *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(334,57): warning C4022: 'ZwProtectVirtualMemory': pointer mismatch for actual parameter 2
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(350,26): warning C4047: '!=': 'ULONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(353,46): warning C4022: 'PsLookupProcessByProcessId': pointer mismatch for actual parameter 1
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(357,74): warning C4047: 'function': 'PVOID *' differs in levels of indirection from 'ULONGLONG *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(357,58): warning C4022: 'ZwAllocateVirtualMemory': pointer mismatch for actual parameter 2
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(372,26): warning C4047: '!=': 'ULONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(375,46): warning C4022: 'PsLookupProcessByProcessId': pointer mismatch for actual parameter 1
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(379,61): warning C4022: 'ZwQueryVirtualMemory': pointer mismatch for actual parameter 2
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(396,26): warning C4047: '!=': 'ULONG' differs in levels of indirection from 'void *'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(398,42): warning C4022: 'HideProcessByProcessId': pointer mismatch for actual parameter 1
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(288,14): warning C4047: 'initializing': 'ULONGLONG' differs in levels of indirection from 'PVOID'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(301,14): warning C4047: 'initializing': 'ULONGLONG' differs in levels of indirection from 'PVOID'
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(239,31): warning C4100: 'DeviceObject': unreferenced formal parameter
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(425,53): warning C4100: 'path': unreferenced formal parameter
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(444,61): warning C4100: 'path': unreferenced formal parameter
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(444,37): warning C4100: 'driver': unreferenced formal parameter
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(445,18): warning C4101: 'status': unreferenced local variable
+C:\Users\Master\Desktop\github\PubgM\Memory\driver\driver_entry.c(10): warning C4716: 'unload_driver': must return a value
+  Driver.vcxproj -> C:\Users\Master\Desktop\github\PubgM\Memory\driver\x64\Release\KP.sys
+  Driver is 'Universal'.

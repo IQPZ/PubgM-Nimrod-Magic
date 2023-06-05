@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f2b2d73c-8b07-471a-93e9-34cf7c171258}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{120d2bd2-8f75-4a43-b150-86fd00d37017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{662586c5-2919-4dad-9985-1936c998de4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{249db3d8-fad2-41bd-862c-c8994cb0e470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Globals">
+      <UniqueIdentifier>{12ecb9ed-7918-450a-8deb-79e8fb302942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Settings">
+      <UniqueIdentifier>{ed245765-b2f0-4f45-92da-6f596f92e3e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Protect">
+      <UniqueIdentifier>{789f5d70-08fb-4b01-a53e-9691679547a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Memory">
+      <UniqueIdentifier>{58a8d64c-8378-45c0-aed3-3b08577aa372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Math">
+      <UniqueIdentifier>{f31b3619-d45b-43a2-8292-de3e2e2b4da7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Vector">
+      <UniqueIdentifier>{b91bc101-08a1-4e2e-a91f-2be72c59df47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameData">
+      <UniqueIdentifier>{4d16087c-60b6-4913-88f2-96bafa12840b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameData\GnameType">
+      <UniqueIdentifier>{abbb39d4-0f68-440b-ae05-4501320cda9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameData\Game Offsets">
+      <UniqueIdentifier>{952b326c-8d70-473a-bea6-fa50bab0c59f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Includes">
+      <UniqueIdentifier>{8ea5c7d6-be8a-4c1d-af07-0ed8b4787083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Config">
+      <UniqueIdentifier>{55ae26cc-77ea-4858-93ab-03131a4be372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\CSX">
+      <UniqueIdentifier>{2fdd6af0-c0e2-4fff-9136-19238ea83cba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imgui\UI">
+      <UniqueIdentifier>{fbfcba2a-587a-45d1-a209-618ac411a127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack">
+      <UniqueIdentifier>{b82f5b07-48b9-448c-847a-57ee3188cc28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features">
+      <UniqueIdentifier>{355f514b-5a26-47e1-8562-42ece13010c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\Aimbot">
+      <UniqueIdentifier>{f5298f8c-7d8e-4a55-81e0-322c0017e907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\Visuals">
+      <UniqueIdentifier>{3b29a16c-d0e5-4efd-a296-ec7301c7226c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hack\Features\Misc">
+      <UniqueIdentifier>{ffa44de2-bd84-44b3-b2de-a98e29836da3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Loader">
+      <UniqueIdentifier>{5ecb080d-ebaf-45b0-a1b6-0d21dbcedd93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Arabic">
+      <UniqueIdentifier>{2c3dda89-5292-479d-bdc5-8184055ee71b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL3">
+      <UniqueIdentifier>{2956b848-4d88-4a2f-84f2-c49da968fdb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL3\Render">
+      <UniqueIdentifier>{a087a652-c52a-44d0-a9dd-6ef3830a9dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL3\Other">
+      <UniqueIdentifier>{d943ea19-11f8-4886-bccf-61852de7353b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Api">
+      <UniqueIdentifier>{578179b5-09ce-44de-8b20-2e9d74a78772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Loader\kdmapper">
+      <UniqueIdentifier>{94a8ee99-2b6d-4494-b54e-e29451763100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util\Loader\Driver">
+      <UniqueIdentifier>{83928986-9120-4dc0-a5fe-f3bf42224e95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GL3.h">
+      <Filter>OpenGL3</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Util\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>OpenGL3\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Util\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Menu\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>Util\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Util\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="GnameType.h">
+      <Filter>GameData\GnameType</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>GameData\Game Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.hpp">
+      <Filter>Menu\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CSX_Cvar.h">
+      <Filter>Util\CSX</Filter>
+    </ClInclude>
+    <ClInclude Include="memoryfonts.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="memoryicons.h">
+      <Filter>OpenGL3</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>Imgui\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Hack\Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Hack\Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Hack\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Dots.h">
+      <Filter>OpenGL3\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Watermark.h">
+      <Filter>OpenGL3\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>Util\Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imconfig.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_glfw.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_impl_opengl3.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Imgui\imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\intel_driver.hpp">
+      <Filter>Util\Loader\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\intel_driver_resource.hpp">
+      <Filter>Util\Loader\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\kdmapper.hpp">
+      <Filter>Util\Loader\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\nt.hpp">
+      <Filter>Util\Loader\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\portable_executable.hpp">
+      <Filter>Util\Loader\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\service.hpp">
+      <Filter>Util\Loader\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper\utils.hpp">
+      <Filter>Util\Loader\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Driver.h">
+      <Filter>Util\Loader\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="WinReg.hpp">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="kRpm.h">
+      <Filter>Util\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherMemory.h">
+      <Filter>Util\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="FarsiType.h">
+      <Filter>Util\Arabic</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Util\Protect</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="GL3.cpp">
+      <Filter>OpenGL3</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>OpenGL3\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Util\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Menu\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>Util\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Util\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GnameType.cpp">
+      <Filter>GameData\GnameType</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>GameData\Game Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Menu\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CSX_Cvar.cpp">
+      <Filter>Util\CSX</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>Imgui\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Hack\Features\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Hack\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Hack\Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Dots.cpp">
+      <Filter>OpenGL3\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Watermark.cpp">
+      <Filter>OpenGL3\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_glfw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_opengl3.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_tables.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherMemory.cpp">
+      <Filter>Util\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="FarsiType.cpp">
+      <Filter>Util\Arabic</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
