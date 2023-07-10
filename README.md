@@ -8,6 +8,8 @@ The original Cheat developed by  [ zakaria1996  ]
 
 All cheats in the pictures are the same project that was published by UC [ https://www.unknowncheats.me/forum/pubg-mobile/586393-pubgm-nimrod-cheat-esp-aimbot-magic.html ]
 Detected Cheats soon
+
+
 ![1](https://github.com/IQPZ/PubgM-Nimrod-Magic/assets/69715395/bfb6f9cd-9da2-4003-860a-1d44c6840640)
 ![2](https://github.com/IQPZ/PubgM-Nimrod-Magic/assets/69715395/4ddc6d6c-ff1c-4830-a266-4aeef30e4b25)
 ![3](https://github.com/IQPZ/PubgM-Nimrod-Magic/assets/69715395/f6d6a383-72a1-4d0f-aea0-6a831b973901)
