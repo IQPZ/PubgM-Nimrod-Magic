@@ -5,7 +5,7 @@ PubgM-Nimrod-Magic
 The original developer [zakaria1996]
  Discord : https://discord.gg/3CH6MVGcQb
 
-All cheats in the pictures are the same project that was published by UC [ https://www.unknowncheats.me/forum/pubg-mobile/586393-pubgm-nimrod-cheat-esp-aimbot-magic.html ]
+All cheats in the pictures are the same project that was published in UC [ https://www.unknowncheats.me/forum/pubg-mobile/586393-pubgm-nimrod-cheat-esp-aimbot-magic.html ]
 Detected Cheats soon
 
 
